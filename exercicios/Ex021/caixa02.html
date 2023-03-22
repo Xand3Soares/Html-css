@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(70, 69, 69);
+        }
+        header {
+            background-color: rgba(99, 98, 98, 0.74);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        nav {
+            background-color: rgb(36, 34, 34);
+            padding: 3px;
+            box-shadow: 2px 2px 8px black;
+            border-radius: 10px;        
+
+        }
+
+        
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 10px;
+
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: rgba(87, 85, 85, 0.822);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        article > aside {
+            background-color: azure;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+            border-radius: 20px;
+        }
+        footer > p {
+        margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+  <header>
+<h1>Meu site</h1>
+<nav>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+</nav>
+  </header>
+  <main>
+    <section id="assuntos">
+   <strong>
+    <h2>Política</h2>
+   </strong>
+    </section>
+    <section id="noticias">
+        <article>
+            <h2>noticias sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dicta assumenda aspernatur perferendis dolores doloremque, at minus, reprehenderit debitis adipisci laborum quas autem, perspiciatis eius voluptas quibusdam fugit ea. Consectetur!</p>
+        </article>
+
+    </section>
+
+  </main>
+  <footer>
+Desenvolvido por alexandre
+  </footer>
+  <div id="bola">
+    
+  </div>
+
+</body>
+</html>

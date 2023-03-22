@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1><!--usando target e rel abre uma aba nova e mantem seu site-->
+    <!-- envelopar usando a Tag A para abrir o link-->
+    <p>você pode acessar o meu <a href="https://github.com/gustavoguanabara" target="_blank" rel="external">repositorio de gitHub</a></p>
+    <!--sem target e rel ele fecha a pagina e abre outra exemplo a baixo-->
+    <p>Você tambem pode acessar o <a href="https://www.youtube.com/watch?v=LeOVXQDsAIY&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=27">canal no youtube!</a></p>
+    <h2>usando links internos</h2>
+    <p>voce tambem pode acessar a minha <a href="pag002.html" rel="next">segunda pagina!</a></p>
+    <p>voce tambem pode acessar nossa pagina de <a href="Noticias/Pag003.html">noticias</a></p>
+    <h1>Links para Downloads</h1>
+    <ul>
+        <!--primeiro exemplo so vai abrir o pdf-->
+        <li><a href="livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf">Baixar livro em PDF</a></li>
+        <!--segundo exemplo vai baixar o zip lembrando que cada applicantion tem o final do arquivo-->
+        <li><a href="livro/meulivro.zip" download="meulivro.zip" type="application/zip">Baixar livro compactado em zip</a></li>
+    </ul>
+</body>
+</html>
