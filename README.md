@@ -1,3 +1,4 @@
 # Html-css
- Curso de Html5 e Css do curso em video
- Estou aprendendo a criar sites e gerenciar  meus repositórios!
+ Aulas de Html e Css
+
+ estou aprendendo a criar sites em Html-css e gerenciar meus repositórios!
