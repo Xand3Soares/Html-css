@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+       
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse:collapse ;
+        }
+        caption {
+            font-size: 1.3em;
+        }
+        th, td {
+            border: 1px solid gray;
+            padding: 10px;
+        }
+        .destaque {
+            background-color: gray;
+        }
+        div#container {
+            width: 50vw;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <table>
+            <thead>
+                <tr>
+                    <th id="1">Área</th>
+                    <th class="">disciplinas</th>
+                    <th class="">nota 1</th>
+                    <th class="">nota 2</th>
+                    <th class="">Média</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="4" scope="rowgroup">EXATAS</th>
+                    <Td>Mátematica</Td>
+                    <td>8.7</td>
+                    <td>9.0</td>
+                    <td>5.5</td>
+                </tr>
+                <tr>
+                    <td>Física</td>
+                    <td>9.5</td>
+                    <td>9.5</td>
+                    <td>9.5</td>
+                </tr>
+                <tr>
+                    <td>Química</td>
+                    <td>9.5</td>
+                    <td>9.5</td>
+                    <td>9.5</td>
+                </tr>
+                <tr>
+                    <td>Biologia</td>
+                    <td>9.5</td>
+                    <td>9.5</td>
+                    <td>9.5</td>
+                </tr>
+                <th colspan="4" scope="row">Media de Exatas</th>
+                <td>9.5</td>
+                <tr>
+                    <th rowspan="4" scope="rowgroup">Humanas</th>
+                    <td>História</td>
+                    <td>9.5</td>
+                    <td>9.5</td>
+                    <td>9.5</td>
+                </tr>
+                <tr>
+                    <td>Geografia</td>
+                    <td>9.5</td>
+                    <td>9.5</td>
+                    <td>9.5</td>
+                </tr>
+                <tfoot>
+                    <tr>
+                        <th colspan="4" scope="rowgroup" class="1">Média de Humanas</th>
+                        <td>9.5</td>
+                    </tr>
+                </tfoot>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
